@@ -27,13 +27,13 @@ const Typewriter: React.FC = () => {
 
       if (!isDeleting && text === fullText) {
         setIsDeleting(true);
-        setSpeed(1000); // Pause before deleting
+        setSpeed(1000); 
       } else if (isDeleting && text === "") {
         setIsDeleting(false);
         setLoop((prev) => prev + 1);
-        setSpeed(200); // Pause before typing next text
+        setSpeed(200); 
       } else {
-        setSpeed(isDeleting ? 50 : 100); // Adjust speed
+        setSpeed(isDeleting ? 50 : 100); 
       }
     };
 
@@ -43,7 +43,7 @@ const Typewriter: React.FC = () => {
   }, [text, isDeleting]);
 
   return (
-    <div className="typewriter-wrapper">  {/* Add the wrapper here */}
+    <div className="typewriter-wrapper">  
       <span className="constant-text">I'm a&nbsp;</span>
       <span className="animated-text"> {text}</span>
       <span className="caret">|</span>

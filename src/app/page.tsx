@@ -1,9 +1,8 @@
-import Image from "next/image";
+
 import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import CurrentProject from "./components/CurrentProject";
-import Card from "./components/ProjectCard";
 import CardGrid from "./components/CardGrid";
 
 

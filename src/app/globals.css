@@ -50,7 +50,6 @@
 
 
 
-/* 
 @media screen and (max-width: 1200px) {
   .parallax_section {
     min-height: 90vh;
@@ -75,12 +74,13 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 481px) {
   .parallax_section {
-    min-height: 70vh;
+    min-height: 80vh;
   }
 }
 
+/* 
 @media screen and (max-width: 768px) {
   .parallax_section h2 {
     font-size: 80px;
@@ -97,11 +97,7 @@
   .parallax_section h2 {
     font-size: 40px;
   }
-} */
-
-
-
-
+}  */
 
 
  /************************************* background end */
@@ -1140,7 +1136,7 @@ margin-left: 4rem;
   .aboutpara{
     width: 80%;
     height: 380px;
-   
+    margin-top: 40px;
  } 
   .aboutpara::before,
   .aboutpara::after {
@@ -1156,10 +1152,16 @@ margin-left: 4rem;
 }
 
 /* For screens smaller than 480px */
-@media (max-width: 480px) {
+@media (max-width: 481px) {
 .mainabout{
   margin-left: 3rem;
+  
   } 
+  
+.abouthead{
+  margin-top: -8rem;
+  
+}
   .aboutpara{
     width: 110%;
     height: 350px;
@@ -1171,7 +1173,7 @@ margin-left: 4rem;
      height: 15rem; 
   } 
 .abouthead {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 .aboutpara p {
     font-size: 10px;
@@ -1440,42 +1442,64 @@ margin-left: 4rem;
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 481px) {
   .skills-wrapper {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 23%;
     margin-left: 45%;
 }
 
+.softwere{
+  font-size: 8px;
+}
+/* .skills-wrapper {
+  font-size: 1.2rem;
+  font-weight: bold;
+} */
+
+/* .main-box {
+  width: 80%;
+  margin-left: 15%;
+  grid-template-columns: 1fr 1fr ;
+} */
+
 .main-box {
     width: 80%;
+    height: 400px;
     margin-left: 15%;
     margin-top: 1rem ;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr 1fr;
 }
 .main-box{
-  padding-top: 1rem ;
+  padding-top: 4rem ;
 }
+
+
+.main-box{ 
+  gap: 1rem;
+}
+
 .box1 {
-    width: 280px;
-    height: 40px;
+    width: 165px;
+    height: 30px;
+    gap: 10px;
 }
 
 .progress {
-    width: 180px;
+    width: 90px;
     height: .3rem;
 }
 
 .logo{
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 }
 
 @media screen and (max-width: 391px) {
   .skills-wrapper {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 23%;
     margin-left: 45%;
 }
@@ -1485,6 +1509,7 @@ margin-left: 4rem;
     margin-left: 18%;
     margin-top: 1rem ;
     grid-template-columns: 1fr ;
+    
 }
 .main-box{
   padding-top: 1rem ;
@@ -1683,12 +1708,12 @@ margin-left: 4rem;
   }
 }
 
-/* For small screens (480px) */
+/* For small screens (481px) */
 @media screen and (max-width: 480px) {
   .currentmain {
     flex-direction: column;
-    margin-left: 0;
-    width: 100%;
+    margin-left: 5rem;
+    width: 80%;
   }
 
   .containercurrent {
@@ -1698,7 +1723,7 @@ margin-left: 4rem;
   }
 
   .currenthead {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .currentpara {
@@ -1708,40 +1733,62 @@ margin-left: 4rem;
   }
 
   .curpara1 h1 {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
 
   .curpara1 p {
-    font-size: 11px;
+    font-size: 8px;
   }
 
   .card {
-    width: 100%;
+    width: 80%;
     height: auto;
+    margin-left: 2.6rem;
+  }
+  .card-hover-content {
+    font-size: 0.6rem;
   }
 }
 
 /* For very small screens (390px) */
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 391px) {
+  .currentmain {
+    flex-direction: column;
+    margin-left: 6rem;
+    width: 70%;
+  }
+
+  .containercurrent {
+    width: 100%;
+    margin-right: 0;
+    padding-top: 0.5rem;
+  }
+
   .currenthead {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .currentpara {
-    gap: 0.5rem;
-    padding-left: 0;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 0.5rem;
   }
 
   .curpara1 h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .curpara1 p {
-    font-size: 10px;
+    font-size: 8px;
   }
 
+  .card {
+    width: 80%;
+    height: auto;
+    margin-left: 2rem;
+  }
   .card-hover-content {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -1811,7 +1858,6 @@ margin-left: 4rem;
   position: relative;
   width: 100%;
   height: 170px;
-  /* border: 1px solid black; */
   overflow: hidden;
   border-radius: 15px 0 15px 0;
   margin-bottom: 10px;
@@ -1869,6 +1915,38 @@ margin-left: 4rem;
   .allprojects {
     margin-left: 60px;
     font-size: 1.8rem;
+  }
+}
+
+
+@media (max-width: 481px) {
+  .custom-card-container {
+    margin-left: 95px;
+    padding: 1rem;
+  }
+
+  .custom-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1rem;
+  }
+
+  .custom-card {
+    max-width: 80%;
+    padding: 10px;
+  }
+
+  .custom-card-image {
+    position: relative;
+    width: 100%;
+    height: 50px;
+  }
+
+  .allprojects {
+    margin-left: 60px;
+    font-size: 1.2rem;
+  }
+  .custom-card-content h3 {
+    font-size: 1rem;
   }
 }
 

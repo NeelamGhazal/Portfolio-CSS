@@ -1506,6 +1506,7 @@ margin-left: 4rem;
 
 .main-box {
     width: 80%;
+    height: 500px ;
     margin-left: 18%;
     margin-top: 1rem ;
     grid-template-columns: 1fr ;

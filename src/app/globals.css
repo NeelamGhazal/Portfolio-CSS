@@ -2791,3 +2791,95 @@ button:hover {
 }
 
 /************************************* feedback end*/
+
+
+/************************************* footer */
+/* Footer styles */
+.portfolio-footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1.5rem 0; /* Reduced padding */
+  margin-left: 60px;
+  width: calc(100% - 60px);
+}
+
+@media (min-width: 768px) {
+  .portfolio-footer {
+    margin-left: 260px;
+    width: calc(100% - 260px);
+  }
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; /* Changed to center for better vertical alignment */
+}
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 1rem; /* Reduced margin */
+  min-width: 200px;
+}
+
+.footer-title {
+  font-size: 1.25rem; /* Reduced from 1.5rem */
+  font-weight: bold;
+  color: #f20089;
+  margin-bottom: 0.25rem; /* Reduced margin */
+}
+
+.footer-subtitle {
+  font-size: 0.75rem; /* Reduced from 0.875rem */
+}
+
+.footer-heading {
+  font-size: 1rem; /* Reduced from 1.125rem */
+  font-weight: 600;
+  color: #f20089;
+  margin-bottom: 0.5rem; /* Reduced margin */
+}
+
+.footer-social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-social-links a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 0.875rem; /* Reduced font size */
+}
+
+.footer-social-links a:hover {
+  color: #f20089;
+}
+
+.footer-bottom {
+  margin-top: 1rem; /* Reduced margin */
+  padding-top: 0.75rem; /* Reduced padding */
+  border-top: 1px solid #333333;
+  text-align: center;
+  font-size: 0.75rem; /* Reduced from 0.875rem */
+}
+
+/* Ensure these styles don't affect other elements */
+.portfolio-footer * {
+  box-sizing: border-box;
+}
+
+.portfolio-footer a {
+  background-color: transparent;
+}
+
+
+
+/************************************* footer end*/

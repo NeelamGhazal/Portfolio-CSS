@@ -4,7 +4,7 @@ import Card from "./Card"
 const CardGrid: React.FC = () => {
   const cards = [
     { title: "Toy Heaven", imageUrl: "/images/my-web.png", link: "/card1" },
-    { title: "Nike Ecommerce", imageUrl: "/images/nike.png", link: "/card2" },
+    { title: "Nike", imageUrl: "/images/nike.png", link: "/card2" },
     { title: "Pizzeria", imageUrl: "/images/pizza.png", link: "/card3" },
     { title: "Furniture", imageUrl: "/images/figma.png", link: "/card4" },
     { title: "Figma design", imageUrl: "/images/figma1.png", link: "/card5" },

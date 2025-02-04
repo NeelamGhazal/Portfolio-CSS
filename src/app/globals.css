@@ -1001,7 +1001,7 @@
   height: 100vh;
   background-image: 
       linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
-      url('/images/girldp.PNG');    
+      url('/images/girldp.png');    
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
